@@ -3,7 +3,7 @@
 int main(int argc, char *argv[]) {
 
     char* dataset = "./data/caida.dat";
-    int M = 25;//KB
+    int M = 25; //KB
     int W = 1500;
     int c;
     while((c = getopt(argc, argv, "d:m:w:")) != -1) {
